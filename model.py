@@ -112,5 +112,5 @@ model = CifarModel()
 model.train_ds = train_ds
 model.test_ds = test_ds
 
-model.train(epochs=55)
+model.train(epochs=100)
 model.save("./cifar10_2")
